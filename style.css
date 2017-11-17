@@ -2,6 +2,7 @@
 	float: left;
 	text-align: center;
 	width: 10%;
+	margin-top: 5%;
 }
 .sectionHeader{
 	font-size: 40px;
@@ -12,6 +13,7 @@
 	width: 82%;
 	float: left;
 	margin-left: 2%;
+	margin-top: 5%;
 	padding: 10px;
 	border-left: 1px solid blue;
 	border-top: 1px solid blue;
@@ -31,4 +33,27 @@
 }
 .button:hover{
 	background-color: lightblue;
+}
+.activePage{
+	float: left;
+	padding: 15px;
+	border: 1px solid black;
+	background-color: darkblue;
+	color: white;
+	width: 20%;
+	box-sizing: border-box;
+}
+.topHeader{
+	text-align: center;
+}
+.topHead{
+	float: left;
+	padding: 15px;
+	border: 1px solid black;
+	background-color: darkgray;
+	width: 20%;
+	box-sizing: border-box;
+}
+.topHead:active{
+	background-color: darkblue;
 }
