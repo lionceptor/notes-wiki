@@ -1,2 +1,2 @@
-# wiki-template
-A basic wiki website template
+# notes-wiki
+A wiki of notes in multiple subjects.
