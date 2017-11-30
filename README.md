@@ -4,7 +4,7 @@ The webpage is https://domination7.github.io/notes-wiki/
 
 This website is still a WIP
 
-To-Do
+To-Do:
  - Add links on the subject pages
  - Add more subjects
  - Adjust color palette
