@@ -2,6 +2,8 @@ body{
 	background-color: #66aee8;
 	margin:0px;
 }
+
+/** On the actual text pages **/
 .leftMenu{
 	float: left;
 	text-align: center;
@@ -36,15 +38,28 @@ body{
 .button:hover{
 	background-color: lightblue;
 }
-.activePage{
-	float: left;
-	padding: 15px;
-	background-color: darkblue;
-	color: white;
-	width: 20%;
-	box-sizing: border-box;
-	text-decoration: none;
+.answerCont{
+	width: 25%;
+	background-color: black;
 }
+.answer{
+	padding: 1%;
+	color: white;
+	opacity: 0;
+}
+.answer:hover{
+	opacity: 1;
+}
+.term{
+	font-size: 36px;
+	color: lightblue;
+	font-style: italic;
+}
+/** End of text pages **/
+
+
+
+/** Every Page **/
 .topHeader{
 	text-align: center;
 }
@@ -61,10 +76,19 @@ body{
 	background-color: gray;
 	color: white;
 }
-.term{
-	font-size: 36px;
-	color: lightblue;
-	font-style: italic;
+/** End of Every Page**/
+
+
+
+/** Index Page **/
+.activePage{
+	float: left;
+	padding: 15px;
+	background-color: darkblue;
+	color: white;
+	width: 20%;
+	box-sizing: border-box;
+	text-decoration: none;
 }
 .subjectRegion{
 	width: 33%;
@@ -87,6 +111,11 @@ body{
 	margin: auto;
 	width: 100%;
 }
+/** End of Index Page **/
+
+
+
+/** Subject Pages**/
 .links{
 	margin-top: 5%;
 }
@@ -107,15 +136,4 @@ body{
 .subjectLink:hover{
 	background-color: darkblue;
 }
-.answerCont{
-	width: 25%;
-	background-color: black;
-}
-.answer{
-	padding: 1%;
-	color: white;
-	opacity: 0;
-}
-.answer:hover{
-	opacity: 1;
-}
+/** End of Subject Pages **/
