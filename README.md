@@ -9,3 +9,4 @@
   - Add links on the subject pages
   - Add more subjects
   - Adjust color palette
+  - Improve syntax clarity
